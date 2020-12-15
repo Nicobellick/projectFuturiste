@@ -1,0 +1,54 @@
+
+
+
+
+
+
+
+
+
+.bloc {
+    display:block;
+    clear:both;
+  }
+
+body {
+  background-color: black;
+  padding-left: 50px;
+  padding-top: 75px;
+}
+
+h1 {
+  color : white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 500px;
+  padding-left: 50px;
+}
+
+h2 {
+  color : white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80px;
+  padding-left: 50px;
+}
+
+.flex-gallery-team {
+  display: flex;
+  margin: 50px;
+}
+
+.flex-gallery-team2 {
+  display: flex;
+  margin: 50px;
+}
+
+.flex-gallery-team3 {
+  display: flex;
+  margin: 50px;
+}
+
+img {
+  width: 300px;
+  height: 400px;
+  margin: 15px;
+}

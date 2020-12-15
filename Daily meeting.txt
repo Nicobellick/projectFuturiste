@@ -1,0 +1,11 @@
+15/12/2020
+Nico + Caro = > Réflexion sur l'organisation du développement en binome. Conviennent de coder en live ensemble.
+Alex : a commencé a coder le footer.
+Ingrid + Kevin : ont bien avancé sur la structure de la page d'acceuil
+Jerome : Header en cours
+Olivier : a commencé a structurer la page AboutUs.
+
+Les header et footer une fois terminés seront pushés sur github pour que les autres membres puissent ajouter le code sur les pages concernées.
+
+-------------------------------
+
