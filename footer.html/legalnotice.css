@@ -4,6 +4,132 @@
     padding:0;
     font-family: 'Staatliches', cursive;
 }
+
+header {
+    background-color: black;
+    padding: 50px 20px 50px 20px;
+    display: center;
+    text-align: center;
+    
+}
+
+#h1-header {
+    font-size: 2em;
+    color: silver;
+}
+nav {
+    background-color: blrgb(49, 46, 46)ack;
+    padding: 1.2em;
+}
+#ul-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+    
+.li-header {
+    list-style: none;
+    margin-right: 5px;
+    font-size: 1.3em;
+  }
+  .li-header a {
+      color: Silver;
+      text-decoration: none;
+
+  }
+#burger, #burger-content {
+    display: inline;
+}
+/* Aspect du bouton burger */
+#burger-button {
+    display: none;
+    cursor: pointer;
+    background-color: none;
+    border: none;
+    font-size: 50px;
+    padding: 0;
+    vertical-align: top;
+    line-height: 50px;
+    float: right;
+    margin-right: 32px;
+    
+}
+/* voile occultant la page derrière quand le menu déroulant apparaît */
+#burger-overlay {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .35);
+
+
+}
+#burger-sidebar {
+    position: fixed;
+    width: 80%;
+    z-index: 20;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(49, 46, 46);
+    display: block;
+    transform: translateX(-100%); /* permet de cacher le menu */
+    transition: transform .5s ease-out;
+}
+#burger-sidebar ul {
+    display: block;
+    margin: 120px 20px 120px 20px;
+    background-color: rgb(49, 46, 46);
+    
+    
+    
+
+}
+#burger-sidebar-header {
+background-color: tomato;
+background-size: cover;
+height : 512 px;
+}
+#burger-sidebar-body li {
+    display: flex;
+    margin: 100px;
+   
+padding: 16px 8px;
+background-color: none;
+}
+
+
+ .img-header {
+     height: 40px;
+     width: auto;
+     padding-right: 15px;
+ }
+
+/* Ci-dessous pour régler le seuil du responsive : */
+
+@media screen and (max-width: 1024px) {
+   #burger-content {
+       display: none;
+   } 
+   #burger-button, #burger-sidebar {
+       display: block;
+   }
+   ul{ 
+    display: flex;
+    flex-direction: column;
+  } 
+
+#burger-button, #burger-sidebar, .burger-activated #burger-overlay {
+    display: block;
+}
+.burger-activated #burger-sidebar {
+    transform: translateX(0); /* permet de faire apparapitre le menu */
+}
+}
+
 .text{
     font-family: 'Roboto', sans-serif;
     margin:50px;
@@ -41,9 +167,9 @@ li:hover {
     color:rgb(74, 143, 233);
 }
 
-@media screen and (max-width: 400px) { 
+/* @media screen and (max-width: 400px) { 
     ul{ 
       display: flex;
       flex-direction: column;
     } 
-  }
+  } */
