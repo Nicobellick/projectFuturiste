@@ -1,23 +1,24 @@
 *{
     margin:0;
     padding:0;
+    font-family: 'Staatliches', cursive;
 }
 
 .maxicontainer{
     position: relative;
-    height: 100vh;
+    height: 100vh; 
     background-image: url(https://images-ext-2.discordapp.net/external/kxb_BdL8IxZPPnvUuYTkZh1iKxpXEW4QaASS5CGseYY/https/lh3.googleusercontent.com/proxy/6OM1L1J6JrZsXGNTVuFt-YTfdxraLh6JdNShNxghnsL-SfJLMzRK5I1mxW8B0BPOmmzZR4TuToUo7LqrjVxqlEyTksmVHdHSOdNH2PH2bMLj2WVRSmoN-86WPHyfDn_7FAN4vYc);
     -webkit-background-size: cover;
     background-size: cover;
-    font-family: arial; /*définir police*/
 }
 
 .form{
-    margin:50px auto 0 auto;
+    flex-direction: center;
+    margin:50px auto 50px auto;
     width:50%;
     max-width: 550px;
     box-sizing: border-box;
-    background-color: rgba(211, 194, 40, 0.5);
+    background-color: rgba(74, 143, 233, 0.5);
     padding: 50px;
     border-radius: 15px;
     border: 1px solid #fff;
@@ -53,6 +54,7 @@
     color: #fff;
 }
 ::placeholder{
+    font-family: 'Roboto', sans-serif;
     color: #fff;
 }
 .form select{
@@ -65,7 +67,7 @@
     height: 40px;
     outline: none;
     font-size: 15px;
-    background-color: rgb(68, 66, 66);
+    background-color: rgb(92, 91, 91);
     cursor: pointer;
     border-radius: 20px;
 }
@@ -78,7 +80,7 @@
     color: silver;   
 }
 
-ul {
+ul{
     font-size: 25px;
     display: flex;
     align-items:center;
@@ -88,17 +90,17 @@ ul {
     list-style-type: none;
 }
 
-li {
+li{
     padding-right: 5px;
     border-right: 2px solid silver;
 }
 
-li:hover {
+li:hover{
     /* text-decoration: underline wavy gold; */
-    color:gold;
+    color:rgb(74, 143, 233);
 }
 
-@media screen and (max-width: 730px) { 
+@media screen and (max-width: 400px) { 
     ul{ 
       display: flex;
       flex-direction: column;

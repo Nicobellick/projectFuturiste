@@ -1,5 +1,6 @@
 
 .footer {
+    font-family: 'Staatliches', cursive;
     background-color: black;
     color: silver;
     height: 200px;
@@ -21,8 +22,8 @@ li {
 }
 
 li:hover {
-    text-decoration: underline wavy gold;
-    color:gold;
+    /* text-decoration: underline wavy gold; */
+    color:rgb(74, 143, 233);
 }
 
 @media screen and (max-width: 400px) { 

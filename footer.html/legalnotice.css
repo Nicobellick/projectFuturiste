@@ -2,15 +2,17 @@
     background-color: black;
     margin:0;
     padding:0;
+    font-family: 'Staatliches', cursive;
 }
 .text{
+    font-family: 'Roboto', sans-serif;
     margin:50px;
     color: silver;
 }
 
 p{
     font-weight: bold;
-    color:gold;
+    color:rgb(74, 143, 233);
     text-decoration: underline ;
 }
 .footer {
@@ -35,8 +37,8 @@ li {
 }
 
 li:hover {
-    text-decoration: underline wavy gold;
-    color:gold;
+    /* text-decoration: underline wavy gold; */
+    color:rgb(74, 143, 233);
 }
 
 @media screen and (max-width: 400px) { 
