@@ -1,26 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Staatliches', cursive;
+}
+
+.background {
+  background-color: black;
+  height: 100px;
+  width: 200px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.btn {
+  border-radius: 40px;
+  background-color: white;
+  padding: 20px 50px;
+  color: black;
+  letter-spacing: 2px;
+  border: 2px solid black;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.btn:hover {
+  background-color: black;
+  border-color: white;
+  color: white;
+}
+
 body{
   background-color: black;
-  margin-left: 0px;
-  margin-right: 0px;
+}
+
+.taille {
+  padding: 25% 25%;
+}
+
+h1 {
+  font-size: 3rem;
+  color:white;
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 40px;
+  margin: 5px;
+  color: white;
+}
+
+h3 {
+  font-size: 1.5rem;
 }
 
 a{
   color: white;
-}
-
-h1{
-  font-family: Arial, Helvetica, sans-serif;
-  color:white;
-  font-size: 80px;
-  margin: 0px;
-  }
-
-h2{
-  font-family: Arial, Helvetica, sans-serif;
-  color:white;
-  font-size: 30px;
-  line-height: 40px;
-  margin: 5px;
 }
 
 span {
@@ -252,30 +296,64 @@ opacity: 1;
 transition: 1s;
 }
 
+.footer {
+  font-family: 'Staatliches', cursive;
+  background-color: black;
+  color: silver;
+  height: 200px;
+}
+
+ul {
+  font-size: 25px;
+  display: flex;
+  align-items:center;
+  justify-content:center; 
+  justify-content: space-around;
+  height: 200px;
+  list-style-type: none;
+}
+
+li {
+  padding-right: 5px;
+  border-right: 2px solid silver;
+}
+
+li:hover {
+  /* text-decoration: underline wavy gold; */
+  color:rgb(74, 143, 233);
+}
+
 @media screen and (max-width: 769px){
+  * {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: 'Staatliches', cursive;
+  }
+  
   body{
     background-color: black;
-    margin-left: 15px;
-    margin-right: 15px;
+  }
+ 
+  .taille {
+    padding: 25% 25%;
   }
   
-  a{
+  h1 {
+    font-size: 3rem;
+    color:white;
+  }
+  
+  h2 {
     color: white;
-  }
-/*How to reduce the margin between H1 & H2 */  
-  h1{
-    font-family: Arial, Helvetica, sans-serif;
-    color:white;
-    font-size: 80px;
-    margin: 0px;
-    }
-  
-  h2{
-    font-family: Arial, Helvetica, sans-serif;
-    color:white;
-    font-size: 30px;
+    font-size: 2rem;
     line-height: 40px;
     margin: 5px;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
   }
   
   span {
@@ -345,13 +423,13 @@ transition: 1s;
   padding-top: 90px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 5px;
   color: black;
     }
   
   .carre1:hover {
   color: white;
-  font-size: 40px;
+  font-size: 25px;
   opacity: 1;
   transition: 1s;
   }
@@ -364,13 +442,13 @@ transition: 1s;
     padding-top: 90px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 5px;
     color: black;
   }
   
   .carre2:hover {
   color: white;
-  font-size: 40px;
+  font-size: 25px;
   opacity: 1;
   transition: 1s;
   }
@@ -383,13 +461,13 @@ transition: 1s;
     padding-top: 90px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 5px;
     color: black;
   }
   
   .carre3:hover {
   color: white;
-  font-size: 40px;
+  font-size: 25px;
   opacity: 1;
   transition: 1s;
   }
@@ -402,13 +480,13 @@ transition: 1s;
     padding-top: 90px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 5px;
     color: black;
   }
   
   .carre4:hover {
   color: white;
-  font-size: 40px;
+  font-size: 25px;
   opacity: 1;
   transition: 1s;
   }
@@ -421,13 +499,13 @@ transition: 1s;
     padding-top: 90px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 5px;
     color: black;
   }
   
   .carre5:hover {
   color: white;
-  font-size: 40px;
+  font-size: 25px;
   opacity: 1;
   transition: 1s;
   }
@@ -440,13 +518,13 @@ transition: 1s;
     padding-top: 90px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 5px;
     color: black;
   }
   
   .carre6:hover {
   color: white;
-  font-size: 40px;
+  font-size: 25px;
   opacity: 1;
   transition: 1s;
   }
@@ -459,13 +537,13 @@ transition: 1s;
     padding-top: 90px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 5px;
     color: black;
   }
   
   .carre7:hover {
   color: white;
-  font-size: 40px;
+  font-size: 25px;
   opacity: 1;
   transition: 1s;
   }
@@ -478,13 +556,13 @@ transition: 1s;
     padding-top: 90px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 5px;
     color: black;
   }
   
   .carre8:hover {
   color: white;
-  font-size: 40px;
+  font-size: 25px;
   opacity: 1;
   transition: 1s;
   }
@@ -497,47 +575,55 @@ transition: 1s;
     padding-top: 90px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 5px;
     color: black;
   }
   .carre9:hover {
   color: white;
-  font-size: 40px;
+  font-size: 25px;
   opacity: 1;
   transition: 1s;
   }
 }
   
  @media screen and (max-width: 321px){ 
+  * {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: 'Staatliches', cursive;
+  }
+ 
   body{
     background-color: black;
     margin-left: 0px;
     margin-right: 0px;
   }
-  
-  ul{ 
-    display: flex;
-    flex-direction: column;
-  } 
-
-  a{
+   
+  a {
     color: white;
   }
   
-  h1{ 
-    font-family: Arial, Helvetica, sans-serif;
-    color:white;
-    font-size: 30px;
-    margin: 5px;
-    }
+  .taille {
+    padding: 25% 25%;
+  }
   
-  h2{
-    font-family: Arial, Helvetica, sans-serif;
+  h1 {
+    font-size: 3rem;
     color:white;
-    font-size: 10px;
-    line-height: 10px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    line-height: 40px;
     margin: 5px;
   }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
+  
   
   span {
     font-size: 14px;
@@ -768,4 +854,10 @@ transition: 1s;
   opacity: 1;
   transition: 1s;
  }
+
+ ul{ 
+  display: flex;
+  flex-direction: column;
+} 
+
  }   
