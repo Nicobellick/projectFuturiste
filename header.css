@@ -1,6 +1,5 @@
-body{
-    background-color: black;
-}
+
+
 header {
     background-color: black;
     padding: 50px 20px 50px 20px;
@@ -30,6 +29,7 @@ li {
   }
   li a {
       color: Silver;
+      text-decoration: none;
 
   }
 #burger, #burger-content {
