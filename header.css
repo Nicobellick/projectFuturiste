@@ -16,18 +16,18 @@ nav {
     background-color: blrgb(49, 46, 46)ack;
     padding: 1.2em;
 }
-ul {
+#ul-header {
     display: flex;
     justify-content: space-around;
 }
 
     
-li {
+.li-header {
     list-style: none;
     margin-right: 5px;
     font-size: 1.3em;
   }
-  li a {
+  .li-header a {
       color: Silver;
       text-decoration: none;
 
@@ -44,7 +44,7 @@ li {
     font-size: 50px;
     padding: 0;
     vertical-align: top;
-    line-height: 60px;
+    line-height: 50px;
     float: right;
     margin-right: 32px;
     
@@ -97,7 +97,7 @@ background-color: none;
 }
 
 
- .img {
+ .img-header {
      height: 40px;
      width: auto;
      padding-right: 15px;
