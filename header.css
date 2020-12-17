@@ -105,7 +105,7 @@ background-color: none;
 
 /* Ci-dessous pour régler le seuil du responsive : */
 
-@media screen and (max-width: 1554px) {
+@media screen and (max-width: 1024px) {
    #burger-content {
        display: none;
    } 
