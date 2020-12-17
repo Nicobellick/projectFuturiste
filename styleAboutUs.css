@@ -1,7 +1,7 @@
 body{
   background-color: black;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 a{
@@ -12,6 +12,7 @@ h1{
   font-family: Arial, Helvetica, sans-serif;
   color:white;
   font-size: 80px;
+  margin: 0px;
   }
 
 h2{
@@ -19,10 +20,11 @@ h2{
   color:white;
   font-size: 30px;
   line-height: 40px;
+  margin: 5px;
 }
 
 span {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .main-gallery{
@@ -35,13 +37,15 @@ grid-template-rows: repeat(4, 200px);
 img{
   height : 200px;
   width : 200px;
+  border-radius: 8px;
 }
 
 img:hover {
-  height : 195px;
-  width: 195px;
+  height : 205px;
+  width: 205px;
   justify-content: center;
   align-content: center;
+  transition: 1s;
 }
 
 .jerome{
@@ -83,212 +87,237 @@ width : 200px;
 height: 200px;
 grid-column: 2;
 grid-row: 1;
-text-align: center;
+padding-top: 80px;
+text-align: center; 
 font-family: Arial, Helvetica, sans-serif;
-font-size: 20px;
-color: red
+font-size: 5px;
+color: black;
   }
 
 .carre1:hover {
 color: white;
-font-size: 19px;
+font-size: 30px;
+opacity: 1;
+transition: 1s;
 }
 
 .carre2{
   width : 200px;
   height: 200px;
-  grid-column: 2;
+  grid-column: 3;
   grid-row: 1;
+  padding-top: 90px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  color: red
+  color: black;
 }
 
 .carre2:hover {
 color: white;
-font-size: 19px;
+font-size: 30px;
+opacity: 1;
+transition: 1s;
 }
 
 .carre3{
   width : 200px;
   height: 200px;
-  grid-column: 2;
-  grid-row: 1;
+  grid-column: 1;
+  grid-row: 2;
+  padding-top: 90px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  color: red
+  color: black;
 }
 
 .carre3:hover {
 color: white;
-font-size: 19px;
+font-size: 30px;
+opacity: 1;
+transition: 1s;
 }
 
 .carre4{
   width : 200px;
   height: 200px;
-  grid-column: 2;
-  grid-row: 1;
+  grid-column: 3;
+  grid-row: 2;
+  padding-top: 90px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  color: red
+  color: black;
 }
 
 .carre4:hover {
 color: white;
-font-size: 19px;
+font-size: 30px;
+opacity: 1;
+transition: 1s;
 }
 
 .carre5{
   width : 200px;
   height: 200px;
-  grid-column: 2;
-  grid-row: 1;
+  grid-column: 4;
+  grid-row: 2;
+  padding-top: 90px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  color: red
+  color: black;
 }
 
 .carre5:hover {
 color: white;
-font-size: 19px;
+font-size: 30px;
+opacity: 1;
+transition: 1s;
 }
 
 .carre6{
   width : 200px;
   height: 200px;
   grid-column: 2;
-  grid-row: 1;
+  grid-row: 3;
+  padding-top: 90px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  color: red
+  color: black;
 }
 
 .carre6:hover {
 color: white;
-font-size: 19px;
+font-size: 30px;
+opacity: 1;
+transition: 1s;
 }
 
 .carre7{
   width : 200px;
   height: 200px;
-  grid-column: 2;
-  grid-row: 1;
+  grid-column: 4;
+  grid-row: 3;
+  padding-top: 90px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  color: red
+  color: black;
 }
 
 .carre7:hover {
 color: white;
-font-size: 19px;
+font-size: 30px;
+opacity: 1;
+transition: 1s;
 }
 
 .carre8{
   width : 200px;
   height: 200px;
-  grid-column: 2;
-  grid-row: 1;
+  grid-column: 1;
+  grid-row: 4;
+  padding-top: 90px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  color: red
+  color: black;
 }
 
 .carre8:hover {
 color: white;
-font-size: 19px;
+font-size: 30px;
+opacity: 1;
+transition: 1s;
 }
 
 .carre9{
   width : 200px;
   height: 200px;
-  grid-column: 2;
-  grid-row: 1;
+  grid-column: 3;
+  grid-row: 4;
+  padding-top: 90px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  color: red
+  color: black;
 }
 .carre9:hover {
 color: white;
-font-size: 19px;
+font-size: 30px;
+opacity: 1;
+transition: 1s;
 }
 
 @media screen and (max-width: 769px){
-
   body{
-    background-color: blue;
-    margin-left: 25px;
-    margin-right: 25px;
+    background-color: black;
+    margin-left: 15px;
+    margin-right: 15px;
   }
-
+  
   a{
     color: white;
   }
-  
+/*How to reduce the margin between H1 & H2 */  
   h1{
     font-family: Arial, Helvetica, sans-serif;
     color:white;
-    font-size: 100px;
-    padding-top: none;
-    margin-top: none;
+    font-size: 80px;
+    margin: 0px;
     }
   
   h2{
     font-family: Arial, Helvetica, sans-serif;
     color:white;
     font-size: 30px;
-    padding-top: none;
-    margin-top: none;
-    font-size: 30px;
     line-height: 40px;
-}
-
-span {
-  font-size: 50px;
-}
-   
+    margin: 5px;
+  }
+  
+  span {
+    font-size: 40px;
+  }
+  
   .main-gallery{
   margin-top: 30px;
   display: grid;
   grid-template-columns: repeat(4, 180px);
   grid-template-rows: repeat(4, 180px);
   }
-
+  
   img{
     height : 180px;
     width : 180px;
+    border-radius: 8px;
   }
-
+  
   img:hover {
-    height : 175px;
-    width: 175px;
+    height : 185px;
+    width: 185px;
     justify-content: center;
     align-content: center;
+    transition: 1s;
   }
-
+  
   .jerome{
     grid-column: 1;
     grid-row: 1;
   }
-
+  
   .ingrid{
     grid-column: 4;
     grid-row: 1;
   }
-
+  
   .caroline{
     grid-column: 2;
     grid-row: 2;
   }
-
+  
   .nicolas{
     grid-column: 1;
     grid-row: 3;
@@ -297,389 +326,446 @@ span {
     grid-column: 3;
     grid-row: 3;
   }
-
+  
   .alexandre{
     grid-column: 2;
     grid-row: 4;
   }
-
+  
   .olivier{
     grid-column: 4;
     grid-row: 4;
   }
-
+  
   .carre1{
   width : 180px;
   height: 180px;
   grid-column: 2;
   grid-row: 1;
+  padding-top: 90px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
-  color: red
+  font-size: 20px;
+  color: black;
     }
-
+  
   .carre1:hover {
   color: white;
-  font-size: 25px;
+  font-size: 40px;
+  opacity: 1;
+  transition: 1s;
   }
-
-.carre2{
-  width : 180px;
-  height: 180px;
-  grid-column: 3;
-  grid-row: 1;
-  text-align: center;
-  justify-content: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
-  color : red
-}
-.carre2:hover {
-color: white;
-font-size: 25px;
-}
-
-.carre3{
-  width : 180px;
-  height: 180px;
-  grid-column: 1;
-  grid-row: 2;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
-  color : red
-}
-
-.carre3:hover {
-color: white;
-font-size: 25px;
-}
-
-.carre4{
-  width : 180px;
-  height: 180px;
-  grid-column: 3;
-  grid-row: 2;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
-  color : red
-}
-
-.carre4:hover {
-color: white;
-font-size: 25px;
-}
-
-.carre5{
-  width : 180px;
-  height: 180px;
-  grid-column: 4;
-  grid-row: 2;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
-  color : red
-}
-
-.carre5:hover {
-color: white;
-font-size: 25px;
-}
-
-.carre6{
-  width : 180px;
-  height: 180px;
-  grid-column: 2;
-  grid-row: 3;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
-  color : red
-}
-
-.carre6:hover {
-color: white;
-font-size: 25px;
-}
-
-.carre7{
-  width : 180px;
-  height: 180px;
-  grid-column: 4;
-  grid-row: 3;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
-  color : red
-}
-
-.carre7:hover {
-color: white;
-font-size: 25px;
-}
-
-.carre8{
-  width : 180px;
-  height: 180px;
-  grid-column: 1;
-  grid-row: 4;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
-  color : red
-}
-
-.carre8:hover {
-color: white;
-font-size: 25px;
-}
-
-.carre9{
-  width : 180px;
-  height: 180px;
-  grid-column: 3;
-  grid-row: 4;
-  text-align: center;font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
-  color : red
-}
-.carre9:hover {
-  color: white;
-  font-size: 25px;
-  }
-}
-
-@media screen and (max-width: 321px){
-
-    body{
-      background-color: black;
-      margin-left: 15px;
-      margin-right: 15px;
-    }
-
-    a{
-      color: white;
-    }
-    
-    h1{
-      font-family: Arial, Helvetica, sans-serif;
-      color:white;
-      font-size: 30px;
-      }
-    
-    h2{
-      font-family: Arial, Helvetica, sans-serif;
-      color:white;
-      font-size: 10px;
-      line-height: 20px;
-      }
-
-    span {
-      font-size: 20px;
-      }
-    
-    
-    .main-gallery{
-    margin-top: 30px;
-    display: grid;
-    grid-template-columns: repeat(4, 72px);
-    grid-template-rows: repeat(4, 72px);
-    }
-
-    img{
-      height : 72px;
-      width : 72px;
-    }
-
-    img:hover {
-      height : 71px;
-      width: 71px;
-      justify-content: center;
-      align-content: center;
-    }
-
-    .jerome{
-      grid-column: 1;
-      grid-row: 1;
-    }
-
-    .ingrid{
-      grid-column: 4;
-      grid-row: 1;
-    }
-
-    .caroline{
-      grid-column: 2;
-      grid-row: 2;
-    }
-
-    .nicolas{
-      grid-column: 1;
-      grid-row: 3;
-    }
-    .kevin{
-      grid-column: 3;
-      grid-row: 3;
-    }
-
-    .alexandre{
-      grid-column: 2;
-      grid-row: 4;
-    }
-
-    .olivier{
-      grid-column: 4;
-      grid-row: 4;
-    }
-
-    .carre1{
-    width : 72px;
-    height: 72px;
-    grid-column: 2;
-    grid-row: 1;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    color: red
-      }
-
-    .carre1:hover {
-    color: white;
-    font-size: 12px;
-    }
-
+  
   .carre2{
-    width : 72px;
-    height: 72px;
+    width : 180px;
+    height: 180px;
     grid-column: 3;
     grid-row: 1;
+    padding-top: 90px;
     text-align: center;
-    justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    color : red
- }
- .carre2:hover {
-  color: white;
-  font-size: 12px;
+    font-size: 20px;
+    color: black;
   }
-
+  
+  .carre2:hover {
+  color: white;
+  font-size: 40px;
+  opacity: 1;
+  transition: 1s;
+  }
+  
   .carre3{
-    width : 72px;
-    height: 72px;
+    width : 180px;
+    height: 180px;
     grid-column: 1;
     grid-row: 2;
+    padding-top: 90px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    color : red
-}
-
-.carre3:hover {
-  color: white;
-  font-size: 12px;
+    font-size: 20px;
+    color: black;
   }
-
+  
+  .carre3:hover {
+  color: white;
+  font-size: 40px;
+  opacity: 1;
+  transition: 1s;
+  }
+  
   .carre4{
-    width : 72px;
-    height: 72px;
+    width : 180px;
+    height: 180px;
     grid-column: 3;
     grid-row: 2;
+    padding-top: 90px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    color : red
-}
-
-.carre4:hover {
-  color: white;
-  font-size: 12px;
+    font-size: 20px;
+    color: black;
   }
-
+  
+  .carre4:hover {
+  color: white;
+  font-size: 40px;
+  opacity: 1;
+  transition: 1s;
+  }
+  
   .carre5{
-    width : 72px;
-    height: 72px;
+    width : 180px;
+    height: 180px;
     grid-column: 4;
     grid-row: 2;
+    padding-top: 90px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    color : red
-}
-
-.carre5:hover {
-  color: white;
-  font-size: 12px;
+    font-size: 20px;
+    color: black;
   }
-
+  
+  .carre5:hover {
+  color: white;
+  font-size: 40px;
+  opacity: 1;
+  transition: 1s;
+  }
+  
   .carre6{
-    width : 72px;
-    height: 72px;
+    width : 180px;
+    height: 180px;
     grid-column: 2;
     grid-row: 3;
+    padding-top: 90px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    color : red
+    font-size: 20px;
+    color: black;
+  }
+  
+  .carre6:hover {
+  color: white;
+  font-size: 40px;
+  opacity: 1;
+  transition: 1s;
+  }
+  
+  .carre7{
+    width : 180px;
+    height: 180px;
+    grid-column: 4;
+    grid-row: 3;
+    padding-top: 90px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+  }
+  
+  .carre7:hover {
+  color: white;
+  font-size: 40px;
+  opacity: 1;
+  transition: 1s;
+  }
+  
+  .carre8{
+    width : 180px;
+    height: 180px;
+    grid-column: 1;
+    grid-row: 4;
+    padding-top: 90px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+  }
+  
+  .carre8:hover {
+  color: white;
+  font-size: 40px;
+  opacity: 1;
+  transition: 1s;
+  }
+  
+  .carre9{
+    width : 180px;
+    height: 180px;
+    grid-column: 3;
+    grid-row: 4;
+    padding-top: 90px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: black;
+  }
+  .carre9:hover {
+  color: white;
+  font-size: 40px;
+  opacity: 1;
+  transition: 1s;
+  }
 }
   
-.carre6:hover {
-  color: white;
-  font-size: 12px;
+ @media screen and (max-width: 321px){ 
+  body{
+    background-color: black;
+    margin-left: 0px;
+    margin-right: 0px;
   }
+  
+  ul{ 
+    display: flex;
+    flex-direction: column;
+  } 
 
-.carre7{
-    width : 72px;
-    height: 72px;
+  a{
+    color: white;
+  }
+  
+  h1{ 
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 30px;
+    margin: 5px;
+    }
+  
+  h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 10px;
+    line-height: 10px;
+    margin: 5px;
+  }
+  
+  span {
+    font-size: 14px;
+  }
+  
+  .main-gallery{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 70px);
+  grid-template-rows: repeat(4, 70px);
+  margin: 5px;
+  }
+  
+  img{
+    height : 70px;
+    width : 70px;
+    border-radius: 8px;
+  }
+  
+  img:hover {
+    height : 71px;
+    width: 71px;
+    justify-content: center;
+    align-content: center;
+    transition: 1s;
+  }
+  
+  .jerome{
+    grid-column: 1;
+    grid-row: 1;
+  }
+  
+  .ingrid{
+    grid-column: 4;
+    grid-row: 1;
+  }
+  
+  .caroline{
+    grid-column: 2;
+    grid-row: 2;
+  }
+  
+  .nicolas{
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .kevin{
+    grid-column: 3;
+    grid-row: 3;
+  }
+  
+  .alexandre{
+    grid-column: 2;
+    grid-row: 4;
+  }
+  
+  .olivier{
+    grid-column: 4;
+    grid-row: 4;
+  }
+  
+  .carre1{
+  width : 70px;
+  height: 70px;
+  grid-column: 2;
+  grid-row: 1;
+  padding-top: 30px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 5px;
+  color: black;
+    }
+  
+  .carre1:hover {
+  color: white;
+  font-size: 10px;
+  opacity: 1;
+  transition: 1s;
+  }
+  
+  .carre2{
+    width : 70px;
+    height: 70px;
+    grid-column: 3;
+    grid-row: 1;
+    padding-top: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5px;
+    color: black;
+  }
+  
+  .carre2:hover {
+  color: white;
+  font-size: 10px;
+  opacity: 1;
+  transition: 1s;
+  }
+  
+  .carre3{
+    width : 70px;
+    height: 70px;
+    grid-column: 1;
+    grid-row: 2;
+    padding-top: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5px;
+    color: black;
+  }
+  
+  .carre3:hover {
+  color: white;
+  font-size: 10px;
+  opacity: 1;
+  transition: 1s;
+  }
+  
+  .carre4{
+    width : 70px;
+    height: 70px;
+    grid-column: 3;
+    grid-row: 2;
+    padding-top: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5px;
+    color: black;
+  }
+  
+  .carre4:hover {
+  color: white;
+  font-size: 10px;
+  opacity: 1;
+  transition: 1s;
+  }
+  
+  .carre5{
+    width : 70px;
+    height: 70px;
+    grid-column: 4;
+    grid-row: 2;
+    padding-top: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5px;
+    color: black;
+  }
+  
+  .carre5:hover {
+  color: white;
+  font-size: 10px;
+  opacity: 1;
+  transition: 1s;
+  }
+  
+  .carre6{
+    width : 70px;
+    height: 70px;
+    grid-column: 2;
+    grid-row: 3;
+    padding-top: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5px;
+    color: black;
+  }
+  
+  .carre6:hover {
+  color: white;
+  font-size: 10px;
+  opacity: 1;
+  transition: 1s;
+  }
+  
+  .carre7{
+    width : 70px;
+    height: 70px;
     grid-column: 4;
     grid-row: 3;
+    padding-top: 30px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    color : red
-}
-
-.carre7:hover {
-  color: white;
-  font-size: 12px;
+    font-size: 5px;
+    color: black;
   }
-
+  
+  .carre7:hover {
+  color: white;
+  font-size: 10px;
+  opacity: 1;
+  transition: 1s;
+  }
+  
   .carre8{
-    width : 72px;
-    height: 72px;
+    width : 70px;
+    height: 70px;
     grid-column: 1;
     grid-row: 4;
+    padding-top: 30px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    color : red
-}
-
-.carre8:hover {
-  color: white;
-  font-size: 12px;
+    font-size: 5px;
+    color: black;
   }
-
+  
+  .carre8:hover {
+  color: white;
+  font-size: 10px;
+  opacity: 1;
+  transition: 1s;
+  }
+  
   .carre9{
-    width : 72px;
-    height: 72px;
+    width : 70px;
+    height: 70px;
     grid-column: 3;
     grid-row: 4;
-    text-align: center;font-family: Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    color : red
-}
- .carre9:hover {
-    color: white;
-    font-size: 12px;
-    }
-}
-
-
-
-
-
-
-
+    padding-top: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5px;
+    color: black;
+  }
+  .carre9:hover {
+  color: white;
+  font-size: 10px;
+  opacity: 1;
+  transition: 1s;
+ }
+ }   
