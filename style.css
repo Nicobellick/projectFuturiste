@@ -1568,6 +1568,14 @@ height: 100%;
   margin-bottom: 20px;
   width: 100%;
 }
+.form select{
+  color: #fff;
+  background-color: rgb(34, 72, 121);
+}
+.form input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px rgb(34, 72, 121) inset !important;
+  -webkit-text-fill-color: white !important;
+}
 .form input[type=text] , .form input[type=number] , .form input[type=mail]{
   border: none;
   border-bottom: 1px solid #fff;
