@@ -582,8 +582,9 @@ nav {
   padding: 0;
   vertical-align: top;
   line-height: 50px;
-  float: right;
-  margin-right: 32px;
+  float: left;
+  margin-right: 70px;
+  margin-left: 50px;
   
 }
 /* voile occultant la page derrière quand le menu déroulant apparaît */
@@ -608,24 +609,29 @@ nav {
   left: 0;
   background-color: rgb(49, 46, 46);
   display: block;
-  transform: translateX(-100%); /* permet de cacher le menu */
+  transform: translateX(-200%); /* permet de cacher le menu */
   transition: transform .5s ease-out;
 }
 #burger-sidebar ul {
   display: block;
-  margin: 120px 20px 120px 20px;
+  margin: 12px 2px 12px 2px;
+  padding: 1px 10px 10px 10px;
   background-color: rgb(49, 46, 46);
 }
 #burger-sidebar-header {
 background-color: tomato;
 background-size: cover;
-height : 512 px;
+height : 200px;
 }
+
 #burger-sidebar-body li {
   display: flex;
-  margin: 100px;
+  
+  
+  text-align: left;
+  margin: 15px;
  
-padding: 16px 8px;
+padding: 10px 8px;
 background-color: none;
 }
 .img-header {
