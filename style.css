@@ -1,11 +1,13 @@
 
 * {
-  padding: 0;
-  margin: 0;
+  /* padding: 0;
+  margin: 0; */
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-family: 'Staatliches', cursive;
 }
+
+
 
 body {
   background-color: black;
@@ -727,11 +729,13 @@ width: 800px;
 margin: 30px auto 0 auto;
 }
 
-img{
+
+/*///////////////////////////////////////// Conflit with fiche.html //////////////////////////////////////////*/
+/* img{
   height : 200px;
   width : 200px;
   border-radius: 8px;
-}
+} /
 
 img:hover {
   height : 205px;
@@ -740,6 +744,7 @@ img:hover {
   align-content: center;
   transition: 1s;
 }
+////////////////////////////////////////// Conflit with fiche.html ///////////////////////////////////////////*/
 
 .jerome{
   grid-column: 1;
@@ -1487,52 +1492,33 @@ li:hover {
 }   
  /* fiche */
 
-.slide {
-  background-image: url(img/volant.jpg);
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: center;
-  background-size: auto;
-  border-style: solid;
-  width: auto;
-  height: 100vh;
+@media screen and (max-width:767px)
+{
+  #myImg {
+    max-width: 100%;
+  }
+  .options{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    display: grid;
 }
-.options ul {
-  list-style-type: none;
-  opacity: 0.2;  
-  height: 500px;
-  padding-left: 0px;
-  margin-top: 15px;
-  
 }
-ul:hover {
-  opacity: 0.7;
+#myImg {
+  max-width: 100%
 }
-.options li {
-  padding: 30px;
-  border-style: solid;
-  border-radius: 15px;
-  text-transform: capitalize;
-  opacity: initial;
-  
-}
-a:hover{
-  color: blue
-  
-}
-.button{
-  display: flex;
-  flex-direction: column;
+#h2Img {
+  color: azure;
+  text-align: center;
 }
 
-.options {
-float: right; 
-display: flex;
-flex-direction: column; 
-align-items: center;
-justify-content: center;
-height: 100%;
-}
+
+
+
+
+
+
+
 
 /* form */
 
