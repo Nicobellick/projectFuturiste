@@ -787,9 +787,9 @@ transform: scale(2);
   .galleryLine {
     flex-direction: column !important;
   }
-  .sm-screen {
+  /*.sm-screen {
     order: -1;
-  }
+  }*/
 }
 
 @media screen and (max-width:462px){
@@ -798,9 +798,9 @@ transform: scale(2);
     align-items: center;
    /* height: 125px !important; */
   }
-  .sm-screen{
+  /*.sm-screen{
     order: -1;
-  }
+  }*/
   .textAboutUs{
     padding: 25px 0;
   }
