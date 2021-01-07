@@ -897,8 +897,7 @@ li {
 
  /* fiche */
 
-@media screen and (max-width:767px)
-{
+@media screen and (max-width:767px){
   #myImg {
     max-width: 100%;
   }
@@ -907,7 +906,25 @@ li {
     margin-right: auto;
     width: 100px;
     display: grid;
-}
+  }
+  .ulList{
+    position: absolute !important;
+    top: 45%;
+    right: 0;
+    transform : translateY(-55%);
+    height: 50%;
+  }
+  .ulList li {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height:100%;
+    opacity: 10px;
+  }
+  .slide{
+    width:100%;
+    margin: 0 !important;
+  }
 }
 #myImg {
   max-width: 100%
@@ -924,14 +941,9 @@ a:hover {
   text-align: center;
   
 }
-
-
-
-
-
-
-
-
+.containerFiche{
+  position: relative;
+}
 
 /* form */
 
