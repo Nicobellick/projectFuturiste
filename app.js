@@ -38,3 +38,5 @@ const cursor =document.querySelector('.cursor')
 document.addEventListener('mousemove', event => {
   cursor.setAttribute('style','top:'+(event.pageY)+'px; left:'+(event.pageX)+"px;")
 })
+
+// Slide fiche 

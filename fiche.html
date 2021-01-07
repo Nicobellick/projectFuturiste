@@ -36,21 +36,42 @@
     </header>
 
     <div class="slide">
-        <div class="options">
-            <ul class="button">
-                <li id="1"><a>Palets on board</a></li>
-                <li id="2"><a href="#">Bluetooth Options</a></li>
-                <li id="3"><a href="#">Apple Sync*</a></li>
-                <li id="4"><a href="#">Speed limit</a></li>
-                <li id="5"><a href="#">Speaker Google</a></li>
-                <li id="6"><a href="#">Coffee Machine</a></li>
-            </ul>
-        </div>
+        
+        <img id=myImg src="img/welcome.jpg" alt="Welcome"><h2 id="h2Img">Welcome to the future</h2></img>
+        
+    </div>
+
+
+    <div>
+        <ul class="ulList">
+            <li>
+                <button data-src="img/onBoard.jpg" onclick="changeImg(this)" data-title="Beautiful Board">On Board</button>
+                <button data-src="img/counter.jpg" onclick="changeImg(this)" data-title="Speed Unlimited">Speed</button>
+                <button data-src="img/reactor.jpg" onclick="changeImg(this)" data-title="Get an incredible engine">Engine</button>
+                <button data-src="img/coffee.jpg" onclick="changeImg(this)" data-title="We think about all">Little late ?</button>
+                <button data-src="img/police.jpg" onclick="changeImg(this)" data-title="Don't worry !">No More Trouble</button>
+            </li>
+        </ul>
     </div>
     
+    <script>
+ 
+            function changeImg(choice){
+                const myImg = document.getElementById("myImg")
+                const titleSlide = document.getElementById('h2Img')
+                const srcButton = choice.dataset.src
+                const title = choice.getAttribute("data-title")
+                titleSlide.innerHTML = title
+                myImg.src = srcButton
+            }
+            
+       
+    </script>
+    
     <div class ="footer">
-        <ul>
+        <ul class ="link">
             <li><a href ="form.html">Contact us</a></li>
+            <li><a href ="#">Technical configurator</a></li>
             <li><a href ="aboutUs.html">About US</a></li>
             <li><a href ="#">Futurists recruit</a></li>
             <li><a href ="legalNotice.html">Legal notice</a></li>
