@@ -602,6 +602,7 @@ nav {
   margin-right: 70px;
   margin-left: 50px;
   margin-top: 29px;
+  margin-bottom: 150px;
   
 }
 /* voile occultant la page derrière quand le menu déroulant apparaît */
@@ -803,9 +804,9 @@ transform: scale(2);
   .galleryLine {
     flex-direction: column !important;
   }
-  .sm-screen {
+  /*.sm-screen {
     order: -1;
-  }
+  }*/
 }
 
 @media screen and (max-width:462px){
@@ -814,9 +815,9 @@ transform: scale(2);
     align-items: center;
    /* height: 125px !important; */
   }
-  .sm-screen{
+  /*.sm-screen{
     order: -1;
-  }
+  }*/
   .textAboutUs{
     padding: 25px 0;
   }
@@ -913,8 +914,7 @@ li {
 
  /* fiche */
 
-@media screen and (max-width:767px)
-{
+@media screen and (max-width:767px){
   #myImg {
     max-width: 100%;
   }
@@ -923,7 +923,25 @@ li {
     margin-right: auto;
     width: 100px;
     display: grid;
-}
+  }
+  .ulList{
+    position: absolute !important;
+    top: 45%;
+    right: 0;
+    transform : translateY(-55%);
+    height: 50%;
+  }
+  .ulList li {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height:100%;
+    opacity: 10px;
+  }
+  .slide{
+    width:100%;
+    margin: 0 !important;
+  }
 }
 #myImg {
   max-width: 100%
@@ -940,14 +958,9 @@ a:hover {
   text-align: center;
   
 }
-
-
-
-
-
-
-
-
+.containerFiche{
+  position: relative;
+}
 
 /* form */
 
@@ -987,6 +1000,10 @@ a:hover {
   color: #fff;
   background-color: rgb(34, 72, 121);
 }
+.form input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px rgb(34, 72, 121) inset !important;
+  -webkit-text-fill-color: white !important;
+} 
 .form input[type=text] , .form input[type=number] , .form input[type=mail]{
   border: none;
   border-bottom: 1px solid #fff;
@@ -1026,10 +1043,10 @@ a:hover {
   list-style-type: none;
 }
 
-#link_footer{
+/* #link_footer{
   padding-right: 5px;
   border-right: 2px solid silver;
-}
+} */
 
 @media screen and (max-width: 400px) { 
 
@@ -1077,7 +1094,11 @@ a:hover {
   .link{ 
     display: flex;
     flex-direction: column;
+    font-size: 20px;
   } 
+  .text{
+    font-size:15px ;
+  }
 }
 
 
