@@ -18,9 +18,7 @@ body {
   color: silver;
   margin: 20px;
 }
-#no-cursor{
-  cursor: none !important;
-}
+
 .primary-title {
   font-weight: lighter;
   letter-spacing: 2px;
