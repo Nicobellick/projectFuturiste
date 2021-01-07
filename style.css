@@ -11,6 +11,11 @@ body {
   background-color: black;
 }
 
+.textnotice {
+  font-family: 'Roboto', sans-serif;
+  color: silver;
+  margin: 20px;
+}
 #no-cursor{
   cursor: none !important;
 }
@@ -1485,6 +1490,7 @@ li:hover {
   flex-direction: column;
 } 
 }   
+
  /* fiche */
 
 .slide {
@@ -1617,6 +1623,10 @@ li:hover{
   color:rgb(74, 143, 233);
 }
 
+
+
+
+
 @media screen and (max-width: 400px) { 
   ul{ 
     display: flex;
@@ -1628,4 +1638,10 @@ li:hover{
   }
 }
 
-
+/* legalNotice */
+.textnotice {
+  font-family: 'Roboto', sans-serif;
+  color: silver;
+  margin: 20px;
+  text-align: justify;
+}
