@@ -767,7 +767,9 @@ transform: scale(2);
 
 .generalbox:hover .textAboutUs{
   color: rgb(252, 252, 252);
-  animation: textsmooth 1s cubic-bezier(.84,.1,.83,.67);
+  /*animation: textsmooth 1s cubic-bezier(.84,.1,.83,.67);*/
+  animation: textsmooth 1s cubic-bezier(0,1.18,.76,1.33)
+  /*display: block;*/
 }
 @keyframes textsmooth{
   0%{
