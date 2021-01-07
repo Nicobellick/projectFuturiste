@@ -499,6 +499,10 @@ li {
 
 /* Header */
 
+#titre {
+  display: inline-block;
+
+}
 .background {
   background-color: black;
   height: 100px;
@@ -582,6 +586,7 @@ nav {
   float: left;
   margin-right: 70px;
   margin-left: 50px;
+  margin-top: 45px;
   
 }
 /* voile occultant la page derrière quand le menu déroulant apparaît */
