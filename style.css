@@ -504,10 +504,6 @@ li {
 
 /* Header */
 
-#titre {
-  display: inline-block;
-
-}
 .background {
   background-color: black;
   height: 100px;
@@ -577,7 +573,6 @@ nav {
 }
 #burger, #burger-content {
   display: inline;
- 
 }
 /* Aspect du bouton burger */
 #burger-button {
@@ -590,19 +585,10 @@ nav {
   vertical-align: top;
   line-height: 50px;
   float: left;
-  margin-right: 25px;
+  margin-right: 70px;
   margin-left: 50px;
-  margin-top: 25px;
-  margin-bottom: 40px;
-}
-  /* pour aligner burger et tire */
   
-#burger-titre {
-  display: inline-block ;
-  justify-content: space-around;
 }
-  
-
 /* voile occultant la page derrière quand le menu déroulant apparaît */
 #burger-overlay {
   display: none;
@@ -1564,11 +1550,14 @@ li {
 a:hover {
   color: rgb(74, 143, 233);
 }
+.ulList {
+  text-align: center;
   
-
+}
 #h2Img {
   color: azure;
   text-align: center;
+  
 }
 
 
