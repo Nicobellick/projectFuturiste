@@ -1550,11 +1550,14 @@ li {
 a:hover {
   color: rgb(74, 143, 233);
 }
+.ulList {
+  text-align: center;
   
-
+}
 #h2Img {
   color: azure;
   text-align: center;
+  
 }
 
 
