@@ -13,6 +13,11 @@ body {
   background-color: black;
 }
 
+.textnotice {
+  font-family: 'Roboto', sans-serif;
+  color: silver;
+  margin: 20px;
+}
 #no-cursor{
   cursor: none !important;
 }
@@ -1524,6 +1529,7 @@ li {
   flex-direction: column;
 } 
 }   
+
  /* fiche */
 
 @media screen and (max-width:767px)
